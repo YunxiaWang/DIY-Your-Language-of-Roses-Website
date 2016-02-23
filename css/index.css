@@ -1,0 +1,121 @@
+/*--css style for index.php--*/
+
+/*global style*/
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/*--css style for header--*/
+header h1 {
+    background-color: #98dafc;
+    width: 100%;
+    color: #ffffff;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 60px;
+    text-align: center;
+    padding: .2em 0 .2em 0;
+}
+
+/*--css style for footer--*/
+footer, a {
+    background-color: #98dafc;
+    width: 100%;
+    color: #ffffff;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    padding: .2em 0 .2em 0;
+    clear: both; 
+}
+
+
+/*--css style for body content--*/
+body {
+    background-image: url("../images/background.jpg");
+    background-repeat: repeat-y;
+    /*background-size: cover;*/
+}
+
+.content {
+    color: #312c32;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+table {
+    width: 80%;
+    border: 1px solid #daad86;
+    text-align: center;
+}
+
+th {
+    background-color: #daad86;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #daad86;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+#add_entry {
+    color: #312c32;
+    float: left;
+    width: 45%;
+    text-align: left;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 20px;
+    margin: 20px 50px 20px 50px;
+}
+
+#search {
+    overflow: auto;
+    color: #312c32;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    text-align: left;
+    font-size: 20px;
+    margin: 20px 50px 20px 0;
+}
+
+.error {
+    color: #ff1a1a;
+    font-size: 15px;
+    font-family: "Comic Sans MS", cursive, sans-serif; 
+}
+
+input[type=text], input[type=number], textarea, select{
+    width: 95%;
+    padding: 8px 15px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    background-color: #daad86;
+    border: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 8px 8px 8px 8px;
+    cursor: pointer;
+    border-radius: 6px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+input[type=submit]:hover {
+    background-color: #c37b3c;
+}
+
