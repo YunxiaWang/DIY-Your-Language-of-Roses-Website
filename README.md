@@ -1,2 +1,3 @@
 # DIY-Your-Language-of-Roses-Website
-User interaction, file I/O webpage design
+DIY Your Language of Roses Website (Feb. 2016) 
+User can add and search items using file I/O.
